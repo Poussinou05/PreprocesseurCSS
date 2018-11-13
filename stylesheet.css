@@ -1,0 +1,106 @@
+@font-face {
+    font-family: aniron;
+    src: url(font/anirm___.ttf);
+}
+body{
+    font-family: aniron;
+}
+.container {
+    display: flex;
+}
+
+.anneau-1 {
+    border-width: 0.1em;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: #3a3a3a;
+    height: 30px;
+    width: 30px;
+    margin-left: -4px;
+    align-self: center;
+    box-shadow: inset 1px 1px 1px black, 1px 1px 1px black;
+}
+
+.anneau-2 {
+    border-width: 0.2em;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: #3a3a3a;
+    height: 60px;
+    width: 60px;
+    margin-left: -8px;
+    align-self: center;
+    box-shadow: inset 2px 2px 2px black, 2px 2px 2px black;
+}
+
+.anneau-3 {
+    border-width: 0.3em;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: #3a3a3a;
+    height: 90px;
+    width: 90px;
+    margin-left: -12px;
+    align-self: center;
+    box-shadow: inset 3px 3px 3px black, 3px 3px 3px black;
+}
+
+.anneau-4 {
+    border-width: 0.4em;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: #3a3a3a;
+    height: 120px;
+    width: 120px;
+    margin-left: -16px;
+    align-self: center;
+    box-shadow: inset 4px 4px 4px black, 4px 4px 4px black;
+}
+
+.anneau-5 {
+    border-width: 0.5em;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: #3a3a3a;
+    height: 150px;
+    width: 150px;
+    margin-left: -20px;
+    align-self: center;
+    box-shadow: inset 5px 5px 5px black, 5px 5px 5px black;
+}
+
+.anneau-6 {
+    border-width: 0.6em;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: #3a3a3a;
+    height: 180px;
+    width: 180px;
+    margin-left: -24px;
+    align-self: center;
+    box-shadow: inset 6px 6px 6px black, 6px 6px 6px black;
+}
+
+.anneauMilieu {
+    border-width: 0.6em;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: orange;
+    height: 180px;
+    width: 180px;
+    margin-left: 0px;
+    align-self: center;
+    box-shadow: inset 1px 1px 1px black, 1px 1px 1px black;
+}
+
+.anneau {
+    border-width: 0.2em;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: #fc680e;
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
+    align-self: center;
+    box-shadow: inset 1px 1px 1px black, 1px 1px 1px black;
+}

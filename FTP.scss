@@ -1,0 +1,27 @@
+.container{
+    display:flex;
+}
+
+@mixin ring($size, $color, $height, $width, $margin, $shadow, $shadowExt) {
+    border-width: $size;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: $color;
+    height: $height;
+    width: $width;
+    margin-left: $margin;
+    align-self: center;
+    box-shadow: $shadow, $shadowExt;
+}
+
+@for $i from 1 through 6 {
+    .anneau-#{$i} {
+        @include ring(0.1em*$i,  #3a3a3a, 30px*$i,30px*$i, -4px*$i, inset 1px*$i 1px*$i 1px*$i black, 1px*$i 1px*$i 1px*$i black);
+    }
+}
+.anneauMilieu{
+    @include ring(0.6em,  orange, 180px,180px, 0px, inset 1px 1px 1px black, 1px 1px 1px black);
+}
+.anneau {
+    @include ring(0.2em,  #fc680e, 30px,30px, 0px, inset 1px 1px 1px black, 1px 1px 1px black);
+}
